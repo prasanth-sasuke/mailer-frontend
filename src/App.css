@@ -1,0 +1,1148 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Lexend+Deca:wght@100..900&display=swap');
+
+
+/* 
+font-family: "Lexend Deca", sans-serif;
+font-family: "Cormorant", serif; 
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none !important;
+    list-style: none;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+body,
+ul,
+li,
+a {
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+body {
+    max-width: 100%;
+    overflow-x: hidden !important;
+    background: #fff !important;
+}
+
+
+
+
+
+
+
+/* == CONTAINER-CSS ==
+================================================= */
+
+.container {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* == CONTAINER-CSS ==
+================================================= */
+
+
+
+
+
+
+
+
+
+/* == SELECTION-CSS ==
+===============================================================*/
+
+::-moz-selection {
+    background: #D9D9D9;
+    color: #000;
+}
+
+::-webkit-selection {
+    background: #D9D9D9;
+    color: #000;
+}
+
+::selection {
+    background: #D9D9D9;
+    color: #000;
+}
+
+:root {
+    --primarycolor: #ce0c0c;
+    --secondarycolor: #000000;
+    --black: #000;
+}
+
+
+/* == SELECTION-CSS ==
+===============================================================*/
+
+
+
+
+
+
+
+
+/* == TYPOGRAPHY-CSS == 
+===============================================================*/
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.common-outer h1,
+.common-outer h2,
+.common-outer h3,
+.common-outer h4,
+.common-outer h5,
+.common-outer h6,
+.common-outer h1 a,
+.common-outer h2 a,
+.common-outer h3 a,
+.common-outer h4 a,
+.common-outer h5 a,
+.common-outer h6 a,
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a,
+h1 strong,
+h2 strong,
+h3 strong,
+h4 strong,
+h5 strong,
+h6 strong {
+    font-family: "Cormorant", serif;
+    color: #000;
+    margin: 0;
+}
+
+h1 strong,
+h2 strong,
+h3 strong,
+h4 strong,
+h5 strong,
+h6 strong {
+    font-weight: 700;
+}
+
+h1 span,
+h2 span,
+h3 span,
+h4 span,
+h5 span,
+h6 span {
+    font-weight: 600;
+    font-family: "Cormorant", serif;
+}
+
+
+h1,
+h1 a,
+.common-outer h1,
+.common-outer h1 a,
+.common-outer h1 strong {
+    font-family: "Cormorant", serif;
+    font-weight: 600;
+    font-size: 60px;
+    color: #000;
+    text-align: initial;
+    line-height: 90px;
+    margin: 40px 0 10px;
+}
+
+h2,
+h2 a,
+.common-outer h2,
+.common-outer h2 a,
+.common-outer h2 strong {
+    font-family: "Cormorant", serif;
+    font-weight: 600;
+    font-size: 56px;
+    color: #000;
+    line-height: 64px;
+    margin: 40px 0 10px;
+}
+
+h3,
+h3 a,
+.common-outer h3,
+.common-outer h3 a,
+.common-outer h3 strong {
+    font-family: "Cormorant", serif;
+    font-weight: 600;
+    font-size: 53px;
+    color: #000;
+    line-height: 53px;
+    margin: 40px 0 10px;
+}
+
+h4,
+h4 a,
+.common-outer h4,
+.common-outer h4 a,
+.common-outer h4 strong {
+    font-family: "Cormorant", serif;
+    font-weight: 600;
+    font-size: 40px;
+    font-weight: 600;
+    color: #000;
+    line-height: 52px;
+    margin: 40px 0 10px;
+}
+
+h5,
+h5 a,
+.common-outer h5,
+.common-outer h5 a,
+.common-outer h5 strong,
+h5.elementor-image-box-title {
+    font-family: "Cormorant", serif;
+    font-weight: 600;
+    font-size: 35px;
+    font-weight: 700;
+    color: #000;
+    line-height: 40px;
+    margin: 40px 0 10px;
+    letter-spacing: 0;
+}
+
+h6,
+h6 a,
+h6 strong,
+.common-outer h6,
+.common-outer h6 a,
+.common-outer h6 strong {
+    font-family: "Cormorant", serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: #000;
+    line-height: 30px;
+    margin: 40px 0 10px;
+    letter-spacing: 0;
+}
+
+h1 span,
+h2 span,
+h3 span,
+h4 span,
+h5 span,
+h6 span {
+    text-align: initial;
+    font-family: "Cormorant", serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+strong {
+    font-weight: 700;
+}
+
+.common-outer {
+    padding: 60px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    contain: content;
+    position: relative;
+}
+
+
+
+
+
+/* == LIST-OL-AND-UL-CSS ==
+============================================================== */
+
+.common-outer ol {
+    padding-left: 25px;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.common-outer ol li {
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #333333;
+    line-height: 25px;
+    padding: 0px;
+    margin-bottom: 14px;
+    position: relative;
+    list-style-type: auto;
+}
+
+.common-outer ul li strong,
+p strong,
+b {
+    font-weight: 500;
+    color: #333333;
+    font-size: 18px;
+}
+
+.common-outer ul {
+    padding: 0;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.common-outer ul li {
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #333333;
+    line-height: 25px;
+    padding: 0px;
+    margin-bottom: 14px;
+    list-style: none;
+    position: relative;
+}
+
+.common-outer ul li::before {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    top: 0px !important;
+    margin-left: -24px;
+    margin-top: 4px;
+    /* background-image: url(./images/ul-li-icon.svg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 17px;
+    height: 17px;
+    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+}
+
+.common-outer ul li ul li {
+    list-style: none;
+}
+
+
+/* == LIST-OL-AND-UL-CSS ==
+============================================================== */
+
+
+
+
+
+
+
+a {
+    text-decoration: none !important;
+}
+
+.common-outer a {
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #333333;
+    line-height: 30px;
+    padding: 0px;
+    margin-bottom: 18px;
+}
+
+.common-outer a strong,
+.common-outer strong a {
+    color: #333333;
+    font-weight: 400;
+}
+
+p {
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #333333;
+    line-height: 30px;
+    padding: 0px;
+    margin-bottom: 18px;
+}
+
+hr {
+    margin: 10px 0;
+    border: 0.2px solid #d4d4d4 !important;
+}
+
+/* == TYPOGRAPHY-CSS == 
+===============================================================*/
+
+
+
+
+
+
+
+
+
+
+/* == FORM-TYPOGRAPHY-CSS == 
+===============================================================*/
+
+input {
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #333333;
+    line-height: 30px;
+    padding: 0px;
+    margin-bottom: 18px;
+}
+
+::placeholder {
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #333333;
+    line-height: 30px;
+    padding: 0px;
+    margin-bottom: 18px;
+}
+
+input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.wpcf7-not-valid {
+    border: 1px solid #D22335 !important;
+}
+
+.invalid .wpcf7-response-output {
+    text-align: center;
+    color: #D22335;
+    border: 1px solid #D22335 !important;
+    width: 87%;
+    font-weight: 400;
+    margin: 0px 29px 15px !important;
+    font-size: 14px;
+}
+
+
+/* wpcf7 form wpcf7-response-output 
+===============================================================*/
+
+.wpcf7-response-output {
+    text-align: center;
+    color: green;
+    border: 1px solid green !important;
+    width: 87%;
+    font-weight: 400;
+    margin: 0px 29px 15px !important;
+    font-size: 14px;
+}
+
+.wpcf7-not-valid-tip {
+    display: none !important;
+}
+
+.elementor-column-gap-default>.elementor-column>.elementor-element-populated {
+    padding: 0px !important;
+}
+
+/* == FORM-TYPOGRAPHY-CSS == 
+===============================================================*/
+
+
+
+
+
+/* == IMAGE-WRAP-CSS_START == 
+===============================================================*/
+
+.alignnone {
+    margin: 5px 30px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 20px auto 20px auto;
+}
+
+.alignright {
+    float: right;
+    margin: 0px 0 20px 40px !important;
+}
+
+.alignleft {
+    float: left;
+    margin: 20px 40px 20px 0 !important;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 40px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 40px 30px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* IMAGE-WRAP-CSS_END == 
+===============================================================*/
+
+
+
+
+
+/* btn_CSS == 
+===============================================================*/
+
+.common-btn {
+    padding: 20px 56px;
+    width: fit-content;
+    background: #B89F54;
+    color: #fff;
+    border-radius: 50px 50px 0 50px;
+}
+
+/* btn_CSS == 
+===============================================================*/
+
+.common-outer {
+    padding: 130px 0;
+}
+
+
+
+
+/* HEADER_CSS_START == 
+===============================================================*/
+
+header {
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+}
+
+header .container {
+    width: 100%;
+    padding: 20px 100px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul.menu {
+    display: flex;
+    column-gap: 50px;
+    margin-right: 50px;
+}
+
+header ul.menu li a {
+    color: #fff;
+}
+
+/* HEADER_CSS_END == 
+===============================================================*/
+
+
+
+
+
+/* HOME-PAGE-CSS == 
+===================================================================================================================*/
+
+/* BANNER_CSS == 
+===============================================================*/
+
+.banner img {
+    width: 100%;
+    object-position: top;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.banner .banner-text {
+    position: absolute;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    background: #000000a3;
+    right: 0;
+    margin-right: 100px;
+    padding: 40px;
+}
+
+.banner .banner-text h2 {
+    color: #fff;
+    /* padding: 30px; */
+}
+
+/* BANNER_CSS == 
+===============================================================*/
+
+/* HOME_ABOUT_CSS == 
+===============================================================*/
+.about-us {
+    padding: 130px 0;
+}
+
+.about-odd {
+    display: flex;
+    column-gap: 40px;
+}
+
+.about-odd .about-us-content {
+    width: 55%;
+}
+
+.about-odd .about-us-image {
+    width: 45%;
+    position: relative;
+}
+
+.about-odd .about-us-image::before {
+    position: absolute;
+    content: "";
+    width: 119%;
+    height: 118%;
+    background: #EFEEED;
+    z-index: -1;
+    right: -21px;
+    top: -40px;
+}
+
+.about-odd .about-us-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-odd .about-us-content h3 {
+    text-align: right;
+    margin: 0px 0 40px;
+}
+
+.about-odd .about-us-content p {
+    margin-right: 70px;
+}
+
+/* HOME_ABOUT_CSS == 
+===============================================================*/
+
+/* HOME_ABOUT-two_CSS == 
+===============================================================*/
+
+.about-us-two {
+    padding: 50px 0 130px;
+}
+
+.about-even {
+    display: flex;
+    column-gap: 40px;
+    flex-direction: row-reverse;
+}
+
+.about-even .about-us-content {
+    width: 55%;
+}
+
+.about-even .about-us-image {
+    width: 45%;
+    position: relative;
+}
+
+.about-even .about-us-image::before {
+    position: absolute;
+    content: "";
+    width: 119%;
+    height: 118%;
+    background: #EFEEED;
+    z-index: -1;
+    left: -20px;
+    top: -40px;
+}
+
+.about-even .about-us-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-even .about-us-content h3 {
+    text-align: left;
+    margin: 0px 0 40px 0px;
+}
+
+.about-even .about-us-content p {
+    margin-left: 70px;
+}
+
+/* HOME_ABOUT-two_CSS == 
+===============================================================*/
+
+/* quotes_CSS == 
+===============================================================*/
+
+.quotes {
+    position: relative;
+    background-color: #F2F2F2;
+    padding: 30px 0;
+    overflow: hidden;
+}
+
+.quotes::before {
+    position: absolute;
+    content: "";
+    background-image: url(./image/overlay.svg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: -10px;
+    opacity: 0.7;
+}
+
+.quotes .container {
+    z-index: 99;
+    position: relative;
+}
+
+.quotes .container h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.quotes .container p {
+    text-align: center;
+}
+
+/* quotes_CSS == 
+===============================================================*/
+
+/* HOME-PAGE-CSS == 
+===================================================================================================================*/
+
+
+
+
+
+
+/* footer_CSS == 
+===============================================================*/
+
+footer {
+    position: relative;
+    background-color: #333;
+}
+
+footer .background-image img {
+    width: 100%;
+    position: relative;
+}
+
+.footer-content {
+    z-index: 9999;
+    /* position: absolute; */
+    top: 0;
+    padding: 50px 100px;
+    display: flex;
+    column-gap: 30px;
+}
+
+footer p,
+footer ul li a {
+    color: #fff;
+}
+
+footer h5 {
+    color: #fff;
+    margin: 0 0 30px;
+}
+
+footer ul.social-media {
+    display: flex;
+    column-gap: 50px;
+    margin-top: 30px;
+
+}
+
+.footer-content-left img {
+    margin-bottom: 30px;
+}
+
+footer ul li a {
+    text-decoration: underline !important;
+}
+
+.copyright p {
+    margin-bottom: 0;
+    padding: 20px;
+    border-top: 1px solid #ffffff3d;
+    text-align: center;
+}
+
+
+/* footer_CSS == 
+===============================================================*/
+
+
+
+
+
+
+
+
+
+
+
+/* about-page-PAGE-DESIGN == 
+===============================================================*/
+
+.banner.inner-page {
+    height: 60vh;
+}
+
+/* about-page-PAGE-DESIGN == 
+===============================================================*/
+
+
+
+
+
+
+
+
+/* EMAIL-PDF-PAGE-DESIGN == 
+===============================================================*/
+
+.email-pdf-page-outer {
+    background: #fff;
+    box-shadow: 0 0 20px 0 #efefef;
+    margin: 30px auto;
+}
+
+.email-pdf-page-inner {
+    padding: 30px 30px 0 30px;
+}
+
+.email-pdf-page-outer .email-pdf-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.email-pdf-page-outer .email-pdf-header .contact-info {
+    width: auto;
+}
+
+.email-pdf-deatils {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fees-title {
+    background: #EFEEED;
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+}
+
+.fees-title h6 {
+    margin: 0;
+}
+
+.Particulars {
+    width: 70%;
+}
+
+.Amount {
+    width: 30%;
+}
+
+.fees-deatils {
+    display: flex;
+    align-items: center;
+    padding: 20px 20px 20px;
+}
+
+.fees-deatils p {
+    margin-bottom: 0;
+}
+
+.notes {
+    display: flex;
+    justify-content: space-between;
+    background: #333;
+    padding: 10px 20px;
+}
+
+.notes p,
+.notes strong {
+    color: #fff;
+    margin: 0;
+}
+
+/* EMAIL-PDF-PAGE-DESIGN == 
+===============================================================*/
+
+
+
+
+
+
+
+
+/* EMAIL-SUCCESS-PDF-PAGE-DESIGN == 
+===============================================================*/
+
+.email--success-pdf-page-inner {
+    padding: 30px 30px 30px 30px;
+}
+
+.message p {
+    text-align: left;
+}
+
+.message {
+    text-align: center;
+}
+
+/* EMAIL-SUCCESS-PDF-PAGE-DESIGN == 
+===============================================================*/
+
+
+
+
+
+
+
+
+
+/* LOGIN-PAGE-DESIGN == 
+===============================================================*/
+
+.Login-page-outer {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    overflow: hidden;
+}
+
+.Login-page-outer .Login-left-image {
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.Login-page-outer .Login-left-image::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 105%;
+    background-image: url(./image/login-overlay.svg);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: -2px;
+    top: -12px;
+}
+
+.Login-page-outer .Login-left-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+}
+
+.Login-page-outer .Login-right-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+}
+
+.Login-page-outer .Login-right-content h3 {
+    margin: 0;
+}
+
+.Login-page-outer .Login-right-content input {
+    width: 70%;
+    border: none;
+    border-bottom: 1px solid #000;
+    padding: 20px 10px;
+    margin-bottom: 10px;
+}
+
+a.back-to-home {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    color: #000;
+    padding: 30px;
+    width: fit-content;
+    background: #B89F54;
+    color: #fff;
+    border-radius: 50px 50px 0 50px;
+    font-size: 0;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+}
+
+a.back-to-home::before {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 30px;
+    background-image: url(./image/right-arrow.png);
+    background-position: center;
+    background-size: contain;
+    transform: rotate(180deg);
+    top: 17px;
+    left: 20px;
+    filter: invert(1);
+    -webkit-filter: invert(1);
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+}
+
+a.back-to-home:hover {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    color: #000;
+    padding: 20px 40px 20px 60px;
+    width: fit-content;
+    background: #B89F54;
+    color: #fff;
+    border-radius: 50px 50px 0 50px;
+    font-size: 18px;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+}
+
+/* LOGIN-PAGE-DESIGN == 
+===============================================================*/
+
+
+
+
+
+
+
+/* computer-science-PAGE-DESIGN == 
+===============================================================*/
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 30px 10px;
+}
+
+th {
+    background-color: #EFEEED;
+}
+
+/* tr:nth-child(even) {
+    background-color: #EFEEED;
+} */
+
+/* computer-science-PAGE-DESIGN == 
+  ===============================================================*/
+
+
+
+
+/* personal-PAGE-DESIGN == 
+  ===============================================================*/
+
+.personal-number input {
+    border: none;
+    border-bottom: 1px solid #000;
+}
+
+.fees-deatils.submit {
+    display: flex;
+    justify-content: center;
+}
+
+.fees-deatils.submit input {
+    padding: 13px 56px;
+    width: fit-content;
+    background: #B89F54;
+    color: #fff;
+    border-radius: 50px 50px 0 50px;
+    border: none;
+    cursor: pointer;
+}
+
+/* personal-PAGE-DESIGN == 
+  ===============================================================*/
+
+
+
+  .student-forms ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+}
+
+.student-forms ul input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #000;
+    padding: 20px 10px;
+    margin-bottom: 10px;
+}
+
+.student-forms ul li.gender input {
+    width: fit-content;
+}
+
+.student-forms ul li.gender {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.student-forms ul li.submit {
+    grid-column: span 2;
+    text-align: center;
+    padding-top: 40px;
+}
